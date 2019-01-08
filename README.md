@@ -6,6 +6,8 @@ Usage: check_clickhouse -m <mode> [-w <warning>] [-c <critical>] [-h]
 	-h Display this help message
 
 Supported modes:
+	
+	
 	replication_log_delay: check difference between entry number in the log of general activity and entry number in the log of general activity that the replica copied to its execution queue for each table
 		Default warning threshold: 5
 		Default critical threshold: 10
